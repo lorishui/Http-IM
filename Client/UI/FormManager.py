@@ -20,7 +20,7 @@ class FormManager(QWidget):
         super().__init__(parent)
         self.url = ""
         self.curFormIndex = LOGIN_FORM
-        self.loginForm = LoginForm(self)
+        self.loginForm = LoginForm()
         
     def readConfig(self):
         doc = minidom.parse('Config.xml')
@@ -31,4 +31,5 @@ class FormManager(QWidget):
         
     def start(self):
         self.loginForm.show()
+        pass
         

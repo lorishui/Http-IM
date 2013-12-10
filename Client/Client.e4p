@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-5.1.dtd">
-<!-- eric5 project file for project QQClient -->
-<!-- Saved: 2013-12-10, 21:21:41 -->
+<!-- eric5 project file for project Client -->
+<!-- Saved: 2013-12-10, 23:07:38 -->
 <!-- Copyright (C) 2013 ,  -->
 <Project version="5.1">
   <Language>en_US</Language>
@@ -22,10 +22,16 @@
     <Source>UI/Login/Ui_RegisterForm.py</Source>
     <Source>UI/Login/RegisterForm.py</Source>
     <Source>UI/Login/Ui_LoginForm.py</Source>
+    <Source>UI/Login/Ui_AskPassWD_DL.py</Source>
+    <Source>UI/Login/AskPassWD_DL.py</Source>
+    <Source>UI/Login/Ui_Register_DL.py</Source>
+    <Source>UI/Login/Register_DL.py</Source>
   </Sources>
   <Forms>
     <Form>UI/Login/LoginForm.ui</Form>
     <Form>UI/Login/RegisterForm.ui</Form>
+    <Form>UI/Login/AskPassWD_DL.ui</Form>
+    <Form>UI/Login/Register_DL.ui</Form>
   </Forms>
   <Translations/>
   <Resources/>

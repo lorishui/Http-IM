@@ -1,16 +1,16 @@
 # -*- coding: utf-8 -*-
 
 """
-Module implementing Form.
+Module implementing Dialog_askPassWD.
 """
 
 from PyQt4.QtCore import pyqtSlot
-from PyQt4.QtGui import QWidget
+from PyQt4.QtGui import QDialog
 
-from .Ui_RegisterForm import Ui_Form
+from .Ui_AskPassWD_DL import Ui_Dialog_askPassWD
 
 
-class Form(QWidget, Ui_Form):
+class Dialog_askPassWD(QDialog, Ui_Dialog_askPassWD):
     """
     Class documentation goes here.
     """

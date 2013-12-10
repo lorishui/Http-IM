@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file '/mnt/Git/HttpQQ/Client/UI/Login/LoginForm.ui'
+# Form implementation generated from reading ui file '/mnt/Git/Http-IM/Client/UI/Login/LoginForm.ui'
 #
-# Created: Tue Dec 10 20:34:44 2013
+# Created: Tue Dec 10 22:35:39 2013
 #      by: PyQt4 UI code generator 4.9.1
 #
 # WARNING! All changes made in this file will be lost!
@@ -18,6 +18,8 @@ class Ui_login_form(object):
     def setupUi(self, login_form):
         login_form.setObjectName(_fromUtf8("login_form"))
         login_form.resize(449, 248)
+        login_form.setMinimumSize(QtCore.QSize(449, 248))
+        login_form.setMaximumSize(QtCore.QSize(449, 248))
         self.label = QtGui.QLabel(login_form)
         self.label.setGeometry(QtCore.QRect(150, 60, 31, 21))
         self.label.setLayoutDirection(QtCore.Qt.LeftToRight)
