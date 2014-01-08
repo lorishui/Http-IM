@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-5.1.dtd">
 <!-- eric5 project file for project Client -->
-<!-- Saved: 2013-12-10, 23:07:38 -->
-<!-- Copyright (C) 2013 ,  -->
+<!-- Saved: 2014-01-08, 16:53:32 -->
+<!-- Copyright (C) 2014 ,  -->
 <Project version="5.1">
   <Language>en_US</Language>
   <Hash>161e096d30d8b39ef12abef134c02791d38e37b0</Hash>
@@ -19,8 +19,6 @@
     <Source>Common/LogicCenter.py</Source>
     <Source>Common/OpCode.py</Source>
     <Source>__init__.py</Source>
-    <Source>UI/Login/Ui_RegisterForm.py</Source>
-    <Source>UI/Login/RegisterForm.py</Source>
     <Source>UI/Login/Ui_LoginForm.py</Source>
     <Source>UI/Login/Ui_AskPassWD_DL.py</Source>
     <Source>UI/Login/AskPassWD_DL.py</Source>
@@ -29,7 +27,6 @@
   </Sources>
   <Forms>
     <Form>UI/Login/LoginForm.ui</Form>
-    <Form>UI/Login/RegisterForm.ui</Form>
     <Form>UI/Login/AskPassWD_DL.ui</Form>
     <Form>UI/Login/Register_DL.ui</Form>
   </Forms>

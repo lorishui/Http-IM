@@ -8,7 +8,7 @@ from PyQt4.QtCore import *
 from PyQt4.QtGui import *
 
 from UI.Login.Ui_LoginForm import Ui_login_form
-from UI.Login.RegisterForm import *
+#from UI.Login.RegisterForm import *
 from UI.Login.Register_DL import *
 from UI.Login.AskPassWD_DL import *
 

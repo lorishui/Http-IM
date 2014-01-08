@@ -7,7 +7,7 @@ from PyQt4.QtCore import *
 from PyQt4.QtGui import *
 from Common.XmlTools import *
 from UI.Login.LoginForm import  *
-from UI.Login.RegisterForm import *
+#from UI.Login.RegisterForm import *
 
 (
     LOGIN_FORM,

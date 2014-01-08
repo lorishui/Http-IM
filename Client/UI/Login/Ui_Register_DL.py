@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file '/mnt/Git/Http-IM/Client/UI/Login/Register_DL.ui'
 #
-# Created: Tue Dec 10 22:44:48 2013
+# Created: Wed Jan  8 16:30:47 2014
 #      by: PyQt4 UI code generator 4.9.1
 #
 # WARNING! All changes made in this file will be lost!
@@ -19,9 +19,9 @@ class Ui_Dialog_register(object):
         Dialog_register.setObjectName(_fromUtf8("Dialog_register"))
         Dialog_register.setWindowModality(QtCore.Qt.WindowModal)
         Dialog_register.resize(313, 239)
-        self.pushButton = QtGui.QPushButton(Dialog_register)
-        self.pushButton.setGeometry(QtCore.QRect(50, 200, 98, 27))
-        self.pushButton.setObjectName(_fromUtf8("pushButton"))
+        self.Button_register = QtGui.QPushButton(Dialog_register)
+        self.Button_register.setGeometry(QtCore.QRect(50, 200, 98, 27))
+        self.Button_register.setObjectName(_fromUtf8("Button_register"))
         self.lineEdit_3 = QtGui.QLineEdit(Dialog_register)
         self.lineEdit_3.setGeometry(QtCore.QRect(100, 100, 113, 27))
         self.lineEdit_3.setObjectName(_fromUtf8("lineEdit_3"))
@@ -50,21 +50,21 @@ class Ui_Dialog_register(object):
         self.lineEdit = QtGui.QLineEdit(Dialog_register)
         self.lineEdit.setGeometry(QtCore.QRect(100, 20, 113, 27))
         self.lineEdit.setObjectName(_fromUtf8("lineEdit"))
-        self.pushButton_2 = QtGui.QPushButton(Dialog_register)
-        self.pushButton_2.setGeometry(QtCore.QRect(170, 200, 98, 27))
-        self.pushButton_2.setObjectName(_fromUtf8("pushButton_2"))
+        self.Button_return = QtGui.QPushButton(Dialog_register)
+        self.Button_return.setGeometry(QtCore.QRect(170, 200, 98, 27))
+        self.Button_return.setObjectName(_fromUtf8("Button_return"))
 
         self.retranslateUi(Dialog_register)
         QtCore.QMetaObject.connectSlotsByName(Dialog_register)
 
     def retranslateUi(self, Dialog_register):
         Dialog_register.setWindowTitle(QtGui.QApplication.translate("Dialog_register", "Dialog", None, QtGui.QApplication.UnicodeUTF8))
-        self.pushButton.setText(QtGui.QApplication.translate("Dialog_register", "Register", None, QtGui.QApplication.UnicodeUTF8))
+        self.Button_register.setText(QtGui.QApplication.translate("Dialog_register", "Register", None, QtGui.QApplication.UnicodeUTF8))
         self.label_2.setText(QtGui.QApplication.translate("Dialog_register", "PassWD:", None, QtGui.QApplication.UnicodeUTF8))
         self.label_4.setText(QtGui.QApplication.translate("Dialog_register", "EMail:", None, QtGui.QApplication.UnicodeUTF8))
         self.label.setText(QtGui.QApplication.translate("Dialog_register", "Name:", None, QtGui.QApplication.UnicodeUTF8))
         self.label_3.setText(QtGui.QApplication.translate("Dialog_register", "PassWD:", None, QtGui.QApplication.UnicodeUTF8))
-        self.pushButton_2.setText(QtGui.QApplication.translate("Dialog_register", "Return", None, QtGui.QApplication.UnicodeUTF8))
+        self.Button_return.setText(QtGui.QApplication.translate("Dialog_register", "Return", None, QtGui.QApplication.UnicodeUTF8))
 
 
 if __name__ == "__main__":

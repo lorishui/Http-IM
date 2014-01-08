@@ -22,3 +22,12 @@ class Dialog_register(QDialog, Ui_Dialog_register):
         """
         super().__init__(parent)
         self.setupUi(self)
+        
+    @pyqtSlot()
+    def on_Button_register_clicked(self):
+        pass
+    
+    @pyqtSlot()
+    def on_Button_return_clicked(self):
+        self.hide()
+    
